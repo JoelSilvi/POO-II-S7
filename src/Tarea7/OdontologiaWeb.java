@@ -1,11 +1,15 @@
 package Tarea7;
 
 public class OdontologiaWeb implements CitasOdontologia{
-	private String name, lastName, address, rut;
+	public String name, lastName, address, rut;
 
+	@Override
+	public String showCitas(String datos) {
+		return datos;
+	}
 
 	public OdontologiaWeb() {
-		
+	
 	}
 	
 	public OdontologiaWeb(String _name, String _lastName, String _address, String _rut) {
@@ -14,7 +18,7 @@ public class OdontologiaWeb implements CitasOdontologia{
 		this.address = _address;
 		this.rut = _rut;
 	}
-
+	
 	public void imprimirDatos() {
 	}
 
@@ -51,7 +55,7 @@ public class OdontologiaWeb implements CitasOdontologia{
 	}
 	
 	public static void main(String[] args) {
-		Diagnostico diagnostico = new Diagnostico("Normal,","22-05-2022,", "Validado");
+		Diagnostico diagnostico = new Diagnostico("Normal,","23-12-2022,","Válido");
 		diagnostico.imprimirDatos();
 		System.out.println("\n");
 		
@@ -61,7 +65,6 @@ public class OdontologiaWeb implements CitasOdontologia{
 		
 		SensibilidadDental sensibilidad = new SensibilidadDental ("Grave,","Dañado,","Medio");
 		sensibilidad.imprimirDatos();
-		
 	}
 
 }

@@ -1,6 +1,6 @@
 package Tarea7;
 
-public class Diagnostico extends OdontologiaWeb{
+ public class Diagnostico extends OdontologiaWeb{
 	public String tipoDiagnostico, fechaDiagnostico, estadoDiagnostico;
 	
 	

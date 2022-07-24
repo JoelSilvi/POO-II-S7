@@ -17,7 +17,7 @@ public class SensibilidadDental extends OdontologiaWeb {
 	
 	@Override
 	public void imprimirDatos() {
-		System.out.println("El paciente tiene " + tipoFisura + " fisura"
+		System.out.println("El paciente tiene una fisura " + tipoFisura
 				+ " el tipo de esmalte es: " + tipoEsmalte
 				+ " y ocupa un cepillo tipo: " + tipoCepillo );
 	}
