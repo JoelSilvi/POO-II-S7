@@ -2,10 +2,6 @@ package Patrones;
 
 public class CitaTres extends CitaDos {
 
-	public CitaTres() {
-
-	}
-
 	public void TerceraOpcion() {
 
 		if (valor == 3) {
@@ -14,9 +10,6 @@ public class CitaTres extends CitaDos {
 			System.out.println("Disponible a las 17:35");
 			System.out.println("Disponible a las 18:30");
 		}
-		
-		
-	
 
 	}
 

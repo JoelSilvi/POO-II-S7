@@ -1,12 +1,11 @@
 package Patrones;
 
 public class Citas {
-	
+
 	public static int valor;
-	
-	
+
 	public static void main(String[] args) {
-		
+
 		Consola.escribir("Hola Escribe tu nombre");
 		String nombre = Consola.leer();
 		System.out.println("***********************************");
@@ -19,13 +18,13 @@ public class Citas {
 		valor = elegido;
 
 		Consola.escribir(nombre + " Nuestros horarios disponibles son:\n");
-		
+
 		CitaUno one = new CitaUno();
-		one.PrimeraOpcion();		
-		
+		one.PrimeraOpcion();
+
 		CitaDos dos = new CitaDos();
 		dos.SegundaOpcion();
-		
+
 		CitaTres tres = new CitaTres();
 		tres.TerceraOpcion();
 		System.out.println("\n");
